@@ -1,0 +1,425 @@
+.body {
+    font-size: 3px;
+    background: #ffffff !important;
+    padding: 20px 50px;
+    text-align: center;
+  }
+  .body p{
+    font-size: 20px;
+    color: #3d46f7;
+  }
+   .body h1{
+    font-size: 25px;
+    color: rgb(47, 47, 230) ;
+  } 
+  .startup-portal-and-img{
+    display:flex;
+  }
+  .card {
+    font-family: -apple-system, BlinkMacSystemFont, 'Open Sans', sans-serif;
+    font-size: 10em;
+    font-weight: 800;
+    font: 100px Arial, sans-serif;
+    color:aliceblue;
+    height: 5em;
+    width: 64em;
+    padding: 50px;
+    display: table-cell;
+    vertical-align: middle;
+    letter-spacing: -2px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  }
+  
+  .card .subtle {
+    color: #000;
+    font-size: 0.5em;
+    font-weight: 400;
+    letter-spacing: -1px;
+  }
+  
+  .card i {
+    font-size: 3em;
+  }
+
+  .bg-blue {
+    background: -webkit-linear-gradient(110deg, #4465f9 60%, #3d46f7 60%);
+    background: -o-linear-gradient(110deg, #3d46f7 60%, #3d46f7 60%);
+    background: -moz-linear-gradient(110deg, #3d46f7 60%, #3d46f7 60%);
+    background: linear-gradient(110deg, #3d46f7 60%, #3d46f7 60%);
+  }
+  .bg-white {
+    background: -webkit-linear-gradient(110deg, #ffffff 60%, #ffffff 60%);
+    background: -o-linear-gradient(110deg, #ffffff 60%, #ffffff 60%);
+    background: -moz-linear-gradient(110deg, #ffffff 60%, #ffffff 60%);
+    background: linear-gradient(110deg, #ffffff 60%, #ffffff 60%);
+    min-height: 400px;
+  }
+  .aim {
+    font-family: -apple-system, BlinkMacSystemFont, 'Open Sans', sans-serif;
+    font-size: 10em;
+    font-weight: 800;
+    font: 100px Arial, sans-serif;
+    color:aliceblue;
+    height: 400px;
+    width: 64em; 
+    display: table-cell;
+    vertical-align: middle;
+    letter-spacing: -2px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  }
+  .body h1{
+    margin-top: 50px;
+    font-weight: 500;
+    text-decoration: underline;
+  }
+  .body p{
+    margin-left: 200px;
+    margin-right:200px;
+  }
+
+  .listing{
+    display: flex;
+    
+  }
+
+  .list1{
+    width: 50%;
+    padding: 0px 0px;
+    line-height: 50px;
+    color: blue;
+    margin-left: 270px;
+    margin-right: 50px;
+  }
+  .list2{
+    width: 50%;
+    padding: 0px 0px;
+    line-height: 50px;
+    color: blue;
+    margin-left: 0px;
+    margin-right:50px;
+  }
+
+.un-list li{
+    font-size: 20px;
+}
+
+
+.profile-img img{
+    margin-top: 20px;
+    width: 100px;
+    border-radius: 100%;
+}
+.profile{
+    margin-left: 50px;
+    width: 100px;
+    display: flex;
+    padding: 20px 20px;
+    width: 200px;
+}
+.contact h2{
+  margin-left:70px;
+}
+.profile-content h3{
+  padding-top: 20px;
+    margin-top: 10px;
+    width: 300px;
+    margin-left: 10px;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.profile-content h4{
+    width: 50%;
+    width: 200px;
+    margin-left: 12px;
+    font-size: 17px;
+}
+.right-footer{
+    width: 50%;
+    margin-left:500px;
+}
+.class-footer{
+    display: flex;
+}
+.footer{
+    display: flex;
+    background-color: #3d46f7;
+    color: #ffffff;
+    padding-top: 30px;
+}
+.right{
+    width: 50%;
+}
+.profile-info{
+    width: 50%;
+}
+.l1{
+    display:flex;
+    /* width:10px; */
+}
+.l1 img{
+    display:flex;
+    width:50px;
+}
+.icons-img img{
+    margin:10px;
+    margin-bottom: 30px;
+    border-radius: 50%;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: #f4f7ff;
+  overflow: hidden;
+}
+
+.buttons-center {
+  display: flex;
+  justify-content: right;
+  gap: 10px;
+  padding: 0;
+  align-items: center;
+  height: 10vh;
+}
+
+.buttons-center button {
+  padding: 10px 0px;
+  border-radius: 25px;
+  border: 0;
+  width: 125px;
+  font-size: 20px;
+  color: #ffffff;
+  background-color: #3d46f7;
+  margin-top: 0% ;
+}
+.buttons-center button:hover {
+  background-color: rgb(0, 119, 255);
+}
+
+.mail-img img{
+  width: 50px;
+  margin-left: 0%;
+  border-radius: 100%;
+}
+.mail{
+  margin-left:-20px;
+  width: 100px;
+  display: flex;
+  padding: 20px 20px;
+  width: 200px;
+}
+.mail-id h4{
+  margin-top: 10px;
+  margin-left:10px;
+  font-size: 25px;
+}
+.profile-content h3{
+  padding-top: 20px;
+    margin-top: 10px;
+    width: 300px;
+    margin-left: 10px;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.startup-portal{
+  margin-left:50px;
+  font-size:150px;
+  line-height: 85%;
+  margin-bottom:60px;
+  margin-top:60px;
+}
+
+
+
+table{
+  width:100%;
+  table-layout: fixed;
+}
+.tbl-header{
+  background-color: rgba(255,255,255,0.3);
+ }
+.tbl-content{
+  height:300px;
+  overflow-x:auto;
+  margin-top: 0px;
+  border: 1px solid rgba(255,255,255,0.3);
+}
+th{
+  padding: 20px 15px;
+  text-align: center;
+  font-weight: 500;
+  font-size: 20px;
+  color: #ffffff;
+  background-color: #3d46f7;
+}
+td{
+  padding: 15px;
+  text-align: left;
+  vertical-align:middle;
+  font-weight: 300;
+  font-size: 12px;
+  color: #fff;
+  border-bottom: solid 1px rgba(255,255,255,0.1);
+}
+tr{
+  padding: 20px 15px;
+  text-align: center;
+  font-weight: 500;
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+}
+.main-tbl{
+  padding-top: 30px;
+}
+
+
+section{
+  margin: 50px;
+}
+
+.register-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  margin-top: 40px;
+}
+
+.button {
+  
+  height: 300px;
+  width: 500px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: filter 1s;
+  font-family: -apple-system, BlinkMacSystemFont, 'Open Sans', sans-serif;
+  font-size: 10em;
+  font-weight: 800;
+  font: 50px Arial, sans-serif;
+  text-align: left;
+  padding-left: 30px;
+  padding-right: 200px;
+}
+
+.button-primary {
+  background: #ffffff;
+  color: #3d46f7;
+  border: 5px solid #3d46f7;
+}
+
+.button-primary:hover {
+  background: #3d46f7;
+  color:#ffffff;
+}
+
+.button-secondary {
+  background: #ffffff;
+  color: #3d46f7;
+  border: 5px solid #3d46f7;
+}
+
+.button-secondary:hover {
+  background: #3d46f7;
+  color: #ffffff;
+}
+
+@media only screen and (max-width: 800px) {
+  .body p{
+    margin-left: 0px !important;
+    margin-right: 0px;
+  }
+  .listing{
+    display: block;
+    padding: 0px;
+  }
+  .list1{
+    padding: 0px;
+    margin-left: 100px;
+  }
+  .list2{
+    padding: 0px;
+    margin-left: 100px;
+  }
+  .register-buttons{
+    display: block;
+  }
+  .button-container{
+    display: block;
+  }
+  .button{
+    height: 150px;
+    width: 200px;
+    font-size: 10em;
+    margin-block-end: 15px;
+  }
+  .main-tbl
+  {
+    margin-left: -70px;
+    padding-left: 0px;
+    margin-right: -70px;
+  }
+  
+  .startup-portal{
+    font-size: 70%;
+    margin-left: 0px;
+    padding: 0px;
+  }
+
+  .buttons-center{
+    gap: 0px;
+    font-size: 50px;
+
+  }
+
+  .buttons-center button{
+    width: 100px;
+  }
+
+  .class-footer{
+    display: block;
+  }
+
+  .profile-info{
+    font-size: 10px;
+    margin-left: -3em;
+    font-size: 1em;
+    
+  }
+
+  .footer{
+    display: block;
+  }
+
+  .right-footer{
+    margin-left: 1em;
+  }
+  .contact h2{
+    font-size: 30px;
+    margin-right: 0px;
+    padding-right: 0px;
+
+  }
+  .profile-content h3{
+    font-size: 1.5em;
+  }
+  .tbl-header th{
+    font-size: 0.6em;
+    align-content: left;
+
+  }
+
+
+
+  
+}
